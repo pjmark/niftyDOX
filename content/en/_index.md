@@ -1,5 +1,5 @@
 ---
-title: Goldydocs
+title: AmyPET
 ---
 
 {{< blocks/cover title="Welcome to Goldydocs: A Docsy Example Project!" image_anchor="top" height="full" >}}
@@ -7,7 +7,7 @@ title: Goldydocs
   Learn More <i class="fas fa-arrow-alt-circle-right ms-2"></i>
 </a>
 <a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/google/docsy-example">
-  Download <i class="fab fa-github ms-2 "></i>
+  Source Code <i class="fab fa-github ms-2 "></i>
 </a>
 <p class="lead mt-5">Porridge temperature assessment &mdash; in the cloud!</p>
 {{< blocks/link-down color="info" >}}
@@ -15,12 +15,9 @@ title: Goldydocs
 
 
 {{% blocks/lead color="primary" %}}
-Goldydocs provides a single web UI providing visibility into porridge
-temperature, chair size, and bed softness metrics! You can even find out who's
-been eating **your** porridge.
+AmyPET provides comprehensive solution for advanced PET image analytics dedicated to clinical trails in neurodegeneration and research.
 
-(Sadly, Goldydocs isn't a real project, but you can use this site as an example
-to create your own real websites with [Docsy](https://docsy.dev))
+Based on [Docsy](https://docsy.dev))
 {{% /blocks/lead %}}
 
 
