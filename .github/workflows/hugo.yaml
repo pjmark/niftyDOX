@@ -53,7 +53,7 @@ jobs:
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: NPM
-        run: npm -D postcss-cli autoprefixer
+        run: npm install -D postcss postcss-cli autoprefixer
       - name: Cache Restore
         id: cache-restore
         uses: actions/cache/restore@v4
